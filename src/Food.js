@@ -428,6 +428,12 @@ export default class Food extends Component {
                       </div>
                     </div>
                   </div>
+                  <div className="pre-next-button mt-5">
+                    <ul className="d-flex justify-content-between step">
+                      <li className="bg-warning px-3 py-2" onClick={() => this.previous(4)}>Previous</li>
+                      
+                    </ul>
+                  </div>
                   
                 </div>
 
